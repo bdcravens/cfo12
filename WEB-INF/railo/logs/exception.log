@@ -1,0 +1,62 @@
+"Severity","ThreadID","Date","Time","Application","Message"
+"ERROR","web-0","05/14/2012","20:28:13","","400 Bad Request
+	at railo.runtime.tag.Http._doEndTag(Http.java:784):784
+	at railo.runtime.tag.Http.doEndTag(Http.java:527):527
+	at openid.cfc.httpclient_cfc$cf.udfCall(/var/www/cfo12/openid/cfc/httpClient.cfc:83):83
+	at railo.runtime.type.UDFImpl.implementation(UDFImpl.java:215):215
+	at railo.runtime.type.UDFImpl._call(UDFImpl.java:434):434
+	at railo.runtime.type.UDFImpl.callWithNamedValues(UDFImpl.java:377):377
+	at railo.runtime.util.VariableUtilImpl.callFunctionWithNamedValues(VariableUtilImpl.java:774):774
+	at railo.runtime.PageContextImpl.getFunctionWithNamedValues(PageContextImpl.java:1458):1458
+	at openid.cfc.httpclient_cfc$cf.udfCall(/var/www/cfo12/openid/cfc/httpClient.cfc:45):45
+	at railo.runtime.type.UDFImpl.implementation(UDFImpl.java:215):215
+	at railo.runtime.type.UDFImpl._call(UDFImpl.java:434):434
+	at railo.runtime.type.UDFImpl.call(UDFImpl.java:384):384
+	at railo.runtime.ComponentImpl._call(ComponentImpl.java:615):615
+	at railo.runtime.ComponentImpl._call(ComponentImpl.java:502):502
+	at railo.runtime.ComponentImpl.call(ComponentImpl.java:1815):1815
+	at railo.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:733):733
+	at railo.runtime.PageContextImpl.getFunction(PageContextImpl.java:1443):1443
+	at openid.cfc.openidconsumer2_cfc$cf._call000009(/var/www/cfo12/openid/cfc/OpenIDConsumer2.cfc:730):730
+	at openid.cfc.openidconsumer2_cfc$cf._1(/var/www/cfo12/openid/cfc/OpenIDConsumer2.cfc:674):674
+	at openid.cfc.openidconsumer2_cfc$cf.udfCall(/var/www/cfo12/openid/cfc/OpenIDConsumer2.cfc):-1
+	at railo.runtime.type.UDFImpl.implementation(UDFImpl.java:215):215
+	at railo.runtime.type.UDFImpl._call(UDFImpl.java:434):434
+	at railo.runtime.type.UDFImpl.call(UDFImpl.java:384):384
+	at railo.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:738):738
+	at railo.runtime.PageContextImpl.getFunction(PageContextImpl.java:1443):1443
+	at openid.cfc.openidconsumer2_cfc$cf._1(/var/www/cfo12/openid/cfc/OpenIDConsumer2.cfc:308):308
+	at openid.cfc.openidconsumer2_cfc$cf.udfCall(/var/www/cfo12/openid/cfc/OpenIDConsumer2.cfc):-1
+	at railo.runtime.type.UDFImpl.implementation(UDFImpl.java:215):215
+	at railo.runtime.type.UDFImpl._call(UDFImpl.java:434):434
+	at railo.runtime.type.UDFImpl.call(UDFImpl.java:384):384
+	at railo.runtime.ComponentImpl._call(ComponentImpl.java:615):615
+	at railo.runtime.ComponentImpl._call(ComponentImpl.java:502):502
+	at railo.runtime.ComponentImpl.call(ComponentImpl.java:1815):1815
+	at railo.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:733):733
+	at railo.runtime.PageContextImpl.getFunction(PageContextImpl.java:1443):1443
+	at openid.openidauth_cfm$cf.call(/var/www/cfo12/openid/openidauth.cfm:43):43
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:761):761
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:35):35
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:24):24
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:1998):1998
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:1965):1965
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:297):297
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:32):32
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722):722
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304):304
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224):224
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169):169
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472):472
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168):168
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405):405
+	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:200):200
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515):515
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:302):302
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"

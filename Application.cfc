@@ -71,6 +71,9 @@ component extends="org.corfield.framework" {
 		if (!isDefined('session.loggedin')) {
 			session.loggedin=false;
 		}
+		if (!isDefined('session.authMethod')) {
+			session.authMethod = '';
+		}
 		securityBypass="security,test";
 		if (!listFind(securityBypass,getSection())) {
 			controller('security.checkAuthorization');

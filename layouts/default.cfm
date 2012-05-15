@@ -48,6 +48,19 @@
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse --> --->
+
+          <cfif session.loggedIn>
+            <ul class="nav">
+              
+              <cfoutput><li><a href="#buildUrl('security.logout')#">Logout</a></li></cfoutput>
+            </ul>
+
+            <ul class="nav pull-right">
+              <li><cfoutput>
+              <cfif isDefined('session.authDetails.img')><img src='#session.authDetails.img#' height="40"></cfif>
+              #session.username#</cfoutput></li>
+            </ul> 
+          </cfif>
         </div>
       </div>
     </div>

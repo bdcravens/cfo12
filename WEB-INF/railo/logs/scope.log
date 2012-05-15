@@ -1,0 +1,433 @@
+"Severity","ThreadID","Date","Time","Application","Message"
+"ERROR","web-0","05/14/2012","17:14:19","scope-context","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/14/2012","17:14:19","session storage","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/14/2012","18:14:22","scope-context","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/14/2012","18:14:22","session storage","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/14/2012","19:14:23","scope-context","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/14/2012","19:14:23","session storage","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/14/2012","20:14:24","scope-context","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/14/2012","20:14:24","session storage","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/14/2012","21:14:25","scope-context","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/14/2012","21:14:25","session storage","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/14/2012","22:14:25","scope-context","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/14/2012","22:14:25","session storage","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/14/2012","23:14:26","scope-context","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/14/2012","23:14:26","session storage","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/15/2012","00:14:28","scope-context","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/15/2012","00:14:28","session storage","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/15/2012","01:14:29","scope-context","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/15/2012","01:14:29","session storage","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/15/2012","02:14:30","scope-context","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/15/2012","02:14:30","session storage","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/15/2012","03:14:30","scope-context","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/15/2012","03:14:30","session storage","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/15/2012","04:14:31","scope-context","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
+"ERROR","web-0","05/15/2012","04:14:31","session storage","Invalid object name 'cf_session_data'.
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368):368
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816):2816
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254):2254
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:631):631
+	at net.sourceforge.jtds.jdbc.JtdsStatement.processResults(JtdsStatement.java:584):584
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQL(JtdsStatement.java:546):546
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.execute(JtdsPreparedStatement.java:559):559
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:230):230
+	at railo.runtime.type.QueryImpl.<init>(QueryImpl.java:184):184
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner.clean(DatasourceStorageScopeCleaner.java:69):69
+	at railo.runtime.type.scope.storage.clean.DatasourceStorageScopeCleaner._clean(DatasourceStorageScopeCleaner.java:44):44
+	at railo.runtime.type.scope.storage.clean.StorageScopeCleanerSupport.clean(StorageScopeCleanerSupport.java:43):43
+	at railo.runtime.type.scope.storage.StorageScopeEngine.clean(StorageScopeEngine.java:26):26
+	at railo.runtime.type.scope.ScopeContext.clearUnused(ScopeContext.java:720):720
+	at railo.runtime.engine.Controler.run(Controler.java:153):153
+	at railo.runtime.engine.Controler.run(Controler.java:100):100
+"
