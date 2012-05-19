@@ -65,9 +65,24 @@ component extends="org.corfield.framework" {
 	this.sessionManagement = true;
 	
 	function setupRequest() {
-		// use setupRequest to do initialization per request
-		//request.context.startTime = getTickCount();
-		//setupApplication();
+		
+		rc.twitter = {
+			key = "consumer_key_as_provided_by_twitter",
+			secret = "consumer_secret_as_provided_by_twitter"
+		};
+		rc.facebook = {
+			key = "app_id_as_provided_by_facebook",
+			secret = "app_secret_as_provided_by_facebook"
+		};
+		rc.google = {
+			key = "consumer_key_as_provided_by_twitter",
+			secret = "consumer_secret_as_provided_by_twitter"
+		};
+		
+
+
+
+
 		if (!isDefined('session.loggedin')) {
 			session.loggedin=false;
 		}
@@ -82,10 +97,7 @@ component extends="org.corfield.framework" {
 	}
 
 	function setupApplication() {
-		//writeDump(" app start !!!! "); abort;
-		application.twitter = structNew();
-		application.twitter.consumerKey = 'NnSlMaRPP1rAc2che2iKg';
-		application.twitter.consumerSecret = 'XtHyl4ltLQHhnDomo6lPaz3d35RQuMGv6Cm5OXOrjE';
+
 
 	}
 
